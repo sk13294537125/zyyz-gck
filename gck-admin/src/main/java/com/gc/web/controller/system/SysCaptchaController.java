@@ -59,7 +59,7 @@ public class SysCaptchaController extends BaseController {
                 bi = captchaProducer.createImage(capStr);
             }
             session.setAttribute(Constants.KAPTCHA_SESSION_KEY, code);
-            logger.info("验证码为："+ capStr);
+            logger.info("验证码为：" + capStr);
             out = response.getOutputStream();
             ImageIO.write(bi, "jpg", out);
             out.flush();
