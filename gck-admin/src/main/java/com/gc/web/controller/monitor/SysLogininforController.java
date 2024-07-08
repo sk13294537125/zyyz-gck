@@ -22,7 +22,6 @@ import com.gc.system.service.ISysLogininforService;
 /**
  * 系统访问记录
  *
- * @author ruoyi
  */
 @Controller
 @RequestMapping("/monitor/logininfor")

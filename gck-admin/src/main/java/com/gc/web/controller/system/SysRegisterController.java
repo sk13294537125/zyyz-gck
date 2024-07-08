@@ -15,7 +15,7 @@ import com.gc.system.service.ISysConfigService;
 /**
  * 注册验证
  *
- * @author ruoyi
+ *
  */
 @Controller
 public class SysRegisterController extends BaseController {

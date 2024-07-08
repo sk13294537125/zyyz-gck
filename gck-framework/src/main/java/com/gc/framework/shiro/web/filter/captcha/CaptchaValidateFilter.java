@@ -13,7 +13,7 @@ import com.gc.common.utils.StringUtils;
 /**
  * 验证码过滤器
  *
- * @author ruoyi
+ *
  */
 public class CaptchaValidateFilter extends AccessControlFilter {
     /**

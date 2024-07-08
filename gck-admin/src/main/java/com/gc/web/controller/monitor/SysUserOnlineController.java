@@ -26,7 +26,6 @@ import com.gc.system.service.ISysUserOnlineService;
 /**
  * 在线用户监控
  *
- * @author ruoyi
  */
 @Controller
 @RequestMapping("/monitor/online")

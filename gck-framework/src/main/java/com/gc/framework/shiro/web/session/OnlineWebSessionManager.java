@@ -25,7 +25,7 @@ import com.gc.system.service.ISysUserOnlineService;
 /**
  * 主要是在此如果会话的属性修改了 就标识下其修改了 然后方便 OnlineSessionDao同步
  *
- * @author ruoyi
+ *
  */
 public class OnlineWebSessionManager extends DefaultWebSessionManager {
     private static final Logger log = LoggerFactory.getLogger(OnlineWebSessionManager.class);

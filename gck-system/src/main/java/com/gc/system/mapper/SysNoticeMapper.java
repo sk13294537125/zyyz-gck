@@ -7,7 +7,7 @@ import com.gc.system.domain.SysNotice;
 /**
  * 公告 数据层
  *
- * @author ruoyi
+ *  
  */
 public interface SysNoticeMapper {
     /**

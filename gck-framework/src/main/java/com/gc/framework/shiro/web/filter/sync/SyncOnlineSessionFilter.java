@@ -11,7 +11,7 @@ import com.gc.framework.shiro.session.OnlineSessionDAO;
 /**
  * 同步Session数据到Db
  *
- * @author ruoyi
+ *
  */
 public class SyncOnlineSessionFilter extends PathMatchingFilter {
     private OnlineSessionDAO onlineSessionDAO;

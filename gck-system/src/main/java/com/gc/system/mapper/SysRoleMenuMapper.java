@@ -7,7 +7,7 @@ import com.gc.system.domain.SysRoleMenu;
 /**
  * 角色与菜单关联表 数据层
  *
- * @author ruoyi
+ *
  */
 public interface SysRoleMenuMapper {
     /**

@@ -12,7 +12,7 @@ import com.gc.common.utils.StringUtils;
 /**
  * 业务表 gen_table
  *
- * @author ruoyi
+ *
  */
 public class GenTable extends BaseEntity {
     private static final long serialVersionUID = 1L;

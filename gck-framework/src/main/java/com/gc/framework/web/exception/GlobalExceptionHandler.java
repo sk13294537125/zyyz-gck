@@ -21,7 +21,7 @@ import com.gc.common.utils.security.PermissionUtils;
 /**
  * 全局异常处理器
  *
- * @author ruoyi
+ *
  */
 @RestControllerAdvice
 public class GlobalExceptionHandler {

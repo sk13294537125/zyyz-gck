@@ -7,7 +7,7 @@ import com.gc.system.domain.SysConfig;
 /**
  * 参数配置 数据层
  *
- * @author ruoyi
+ *
  */
 public interface SysConfigMapper {
     /**

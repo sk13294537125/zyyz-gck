@@ -26,7 +26,7 @@ import com.gc.common.utils.StringUtils;
 /**
  * 通用http发送方法
  *
- * @author ruoyi
+ *  
  */
 public class HttpUtils {
     private static final Logger log = LoggerFactory.getLogger(HttpUtils.class);

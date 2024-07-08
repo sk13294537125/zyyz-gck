@@ -3,7 +3,7 @@ package com.gc.common.enums;
 /**
  * 用户会话
  *
- * @author ruoyi
+ *
  */
 public enum OnlineStatus {
     /**

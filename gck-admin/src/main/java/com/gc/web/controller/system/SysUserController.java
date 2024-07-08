@@ -38,7 +38,7 @@ import com.gc.system.service.ISysUserService;
 /**
  * 用户信息
  *
- * @author ruoyi
+ *
  */
 @Controller
 @RequestMapping("/system/user")

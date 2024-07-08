@@ -15,7 +15,7 @@ import com.gc.common.utils.MessageUtils;
 /**
  * permission 工具类
  *
- * @author ruoyi
+ *
  */
 public class PermissionUtils {
     private static final Logger log = LoggerFactory.getLogger(PermissionUtils.class);

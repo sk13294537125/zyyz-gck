@@ -23,7 +23,7 @@ import com.gc.common.utils.uuid.IdUtils;
 /**
  * 文件处理工具类
  *
- * @author ruoyi
+ *
  */
 public class FileUtils {
     public static String FILENAME_PATTERN = "[a-zA-Z0-9_\\-\\|\\.\\u4e00-\\u9fa5]+";

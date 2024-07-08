@@ -25,7 +25,7 @@ import com.gc.system.service.ISysDictTypeService;
 /**
  * 数据字典信息
  *
- * @author ruoyi
+ *
  */
 @Controller
 @RequestMapping("/system/dict")
