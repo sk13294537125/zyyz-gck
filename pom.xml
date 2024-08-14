@@ -13,8 +13,6 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
         <maven-jar-plugin.version>3.1.1</maven-jar-plugin.version>
-        <shiro.version>1.13.0</shiro.version>
-        <thymeleaf.extras.shiro.version>2.1.0</thymeleaf.extras.shiro.version>
         <druid.version>1.2.20</druid.version>
         <bitwalker.version>1.21</bitwalker.version>
         <kaptcha.version>2.3.3</kaptcha.version>
@@ -52,34 +50,6 @@
                 <groupId>pro.fessional</groupId>
                 <artifactId>kaptcha</artifactId>
                 <version>${kaptcha.version}</version>
-            </dependency>
-
-            <!-- Shiro核心框架 -->
-            <dependency>
-                <groupId>org.apache.shiro</groupId>
-                <artifactId>shiro-core</artifactId>
-                <version>${shiro.version}</version>
-            </dependency>
-
-            <!-- Shiro使用Spring框架 -->
-            <dependency>
-                <groupId>org.apache.shiro</groupId>
-                <artifactId>shiro-spring</artifactId>
-                <version>${shiro.version}</version>
-            </dependency>
-
-            <!-- Shiro使用EhCache缓存框架 -->
-            <dependency>
-                <groupId>org.apache.shiro</groupId>
-                <artifactId>shiro-ehcache</artifactId>
-                <version>${shiro.version}</version>
-            </dependency>
-
-            <!-- thymeleaf模板引擎和shiro框架的整合 -->
-            <dependency>
-                <groupId>com.github.theborakompanioni</groupId>
-                <artifactId>thymeleaf-extras-shiro</artifactId>
-                <version>${thymeleaf.extras.shiro.version}</version>
             </dependency>
 
             <!-- 解析客户端操作系统、浏览器等 -->
@@ -144,34 +114,6 @@
                 <version>${fastjson.version}</version>
             </dependency>
 
-            <!-- 定时任务-->
-            <dependency>
-                <groupId>com.gc</groupId>
-                <artifactId>gck-quartz</artifactId>
-                <version>${gck.version}</version>
-            </dependency>
-
-            <!-- 代码生成-->
-            <dependency>
-                <groupId>com.gc</groupId>
-                <artifactId>gck-generator</artifactId>
-                <version>${gck.version}</version>
-            </dependency>
-
-            <!-- 核心模块-->
-            <dependency>
-                <groupId>com.gc</groupId>
-                <artifactId>gck-framework</artifactId>
-                <version>${gck.version}</version>
-            </dependency>
-
-            <!-- 系统模块-->
-            <dependency>
-                <groupId>com.gc</groupId>
-                <artifactId>gck-system</artifactId>
-                <version>${gck.version}</version>
-            </dependency>
-
             <!-- 通用工具-->
             <dependency>
                 <groupId>com.gc</groupId>
@@ -179,15 +121,21 @@
                 <version>${gck.version}</version>
             </dependency>
 
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>1.18.22</version>
+            </dependency>
+            <dependency>
+                <groupId>com.baomidou</groupId>
+                <artifactId>mybatis-plus-generator</artifactId>
+                <version>3.5.3</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
 
     <modules>
         <module>gck-admin</module>
-        <module>gck-framework</module>
-        <module>gck-system</module>
-        <module>gck-quartz</module>
-        <module>gck-generator</module>
         <module>gck-common</module>
     </modules>
     <packaging>pom</packaging>
